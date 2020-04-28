@@ -1,0 +1,17 @@
+SQLite format 3
+table cacheDB
+        CREATE TABLE "cacheDB" (
+	"cacheID" VARCHAR(80) NOT NULL, 
+	"nodeName" VARCHAR(80) NOT NULL, 
+	"highAvailabilityMode" VARCHAR(80) NOT NULL, 
+	status VARCHAR(80) NOT NULL, 
+	comment VARCHAR(80) NOT NULL, 
+	"creationDate" VARCHAR(80) NOT NULL, 
+	"modificationDate" VARCHAR(80) NOT NULL, 
+	asset_status VARCHAR(80) NOT NULL, 
+	ip VARCHAR(80) NOT NULL, 
+	type VARCHAR(80) NOT NULL, 
+	"availabilityZone" VARCHAR(80) NOT NULL, 
+	network VARCHAR(80) NOT NULL, 
+	PRIMARY KEY ("cacheID")
+)
